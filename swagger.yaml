@@ -1,33 +1,30 @@
 ---
 swagger: "2.0"
 info:
-  description: "This is a sample server Petstore server.  You can find out more about\
-    \ Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).\
-    \  For this sample, you can use the api key `special-key` to test the authorization\
-    \ filters."
+  description: "API that serves information on shipping products\"
   version: "1.0.5"
-  title: "Swagger Petstore"
+  title: "Shipping APIs"
   termsOfService: "http://swagger.io/terms/"
   contact:
     email: "apiteam@swagger.io"
   license:
     name: "Apache 2.0"
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
-host: "petstore.swagger.io"
+host: "https://rossingram.github.io/"
 basePath: "/v2"
 tags:
-- name: "pet"
-  description: "Everything about your Pets"
+- name: "Ship-Battery"
+  description: "Returns marks and labels required to ship a battery based on its attributes"
   externalDocs:
-    description: "Find out more"
-    url: "http://swagger.io"
-- name: "store"
-  description: "Access to Petstore orders"
-- name: "user"
-  description: "Operations about user"
-  externalDocs:
-    description: "Find out more about our store"
-    url: "http://swagger.io"
+    description: "Learn About Smarter Sorting"
+    url: "https://smarter-b07509.webflow.io/"
+- name: "Ship-Ocean"
+  description: "Returns shipping papers for ocean senarios"
+# - name: "user"
+#  description: "Operations about user"
+#  externalDocs:
+#    description: "Find out more about our marketplace"
+#    url: "http://swagger.io"
 schemes:
 - "https"
 - "http"
