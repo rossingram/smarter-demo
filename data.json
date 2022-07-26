@@ -21,7 +21,7 @@
          "description":"Returns marks and labels required to ship a battery based on its attributes",
          "externalDocs":{
             "description":"Find out more",
-            "url":"https://smartersorting.com"
+            "url":"https://smartersorting.com",
          }
       },
       {
@@ -33,7 +33,7 @@
          "description":"Returns shipping labels for dangerous senarios",
          "externalDocs":{
             "description":"Find out more",
-            "url":"https://smartersorting.com"
+            "url":"https://smartersorting.com",
          }
       },
    ],
