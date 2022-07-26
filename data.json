@@ -26,14 +26,6 @@
 		{
 			"name": "ship-ocean",
 			"description": "Returns shipping papers for ocean senarios"
-		},
-		{
-			"name": "ship-danger",
-			"description": "Returns shipping labels for dangerous senarios",
-			"externalDocs": {
-				"description": "Find out more",
-				"url": "https://smartersorting.com"
-			}
 		}
 	],
 	"schemes": [
